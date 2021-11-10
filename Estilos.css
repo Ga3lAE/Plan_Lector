@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Qahiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=STIX+Two+Text&display=swap');
+body{
+    background-color: #5D534A;
+    margin: 0px; padding: 0px;
+}
+nav{
+    background-color: black;
+    display: flex; justify-content: space-between; padding-left: 2em; padding-right: 2em;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.Menu{
+    display: flex;
+    justify-content: space-between;
+}
+.Titu{
+    color: #D6D2C4 ;
+}
+.Nombre{
+    margin-left: 1em;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.Nombre:hover{
+    text-shadow: 5px 5px 10px #F38BA0;
+}
+.Logo{
+    height: 5rem;
+    border: double white 5px;
+}
+.Logo:hover{
+    filter: drop-shadow(5px 5px 10px grey);
+}
+ul{
+    list-style: none ;
+    margin-left: 1em;
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
+}
+ul:hover{
+    text-shadow: 2px 2px 15px #B5EAEA;
+}
+li{
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Bangers', cursive;
+}
+.Frase{
+    color: #F7DAD9;
+    display: flex;
+    justify-content: end;
+    align-items: center ;  
+    margin-right: 1rem;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px 2px slateblue;
+}
+section{
+    height: 100%;
+    display: flex;
+    justify-content: center; align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 5rem;
+    color: #FDA65D;
+}
+h1:hover{
+    text-shadow: #FFF9B6 2px 2px 2px;
+}
+.Libro-img{
+    height: 20rem;
+}
+.Libro-img:hover{
+    filter: drop-shadow(10px 10px 30px #FFF9B6);
+}

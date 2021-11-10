@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Qahiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=STIX+Two+Text&display=swap');
+body{
+    margin: 0px; padding: 0px;
+    background-image:linear-gradient(#5D534b ,#595260);
+}
+nav{
+    background-color: black;
+    display: flex; justify-content: space-between; padding-left: 2em; padding-right: 2em;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.Menu-div{
+    display: flex;
+    justify-content: space-between;
+}
+.Titu-div{
+    color: #D6D2C4 ;
+}
+.Nombre-h2{
+    margin-left: 1em;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.Nombre-h2:hover{
+    text-shadow: 5px 5px 10px #F38BA0;
+}
+.Logo{
+    height: 5rem;
+    border: double white 5px;
+}
+.Logo:hover{
+    filter: drop-shadow(5px 5px 10px grey);
+}
+.Enlaces-ul{
+    list-style: none ;
+    margin-left: 1em;
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
+}
+.Enlaces-ul:hover{
+    text-shadow: 2px 2px 15px #FFBCBC;
+}
+.Enlaces-ul:link{
+    color: blueviolet;
+}
+.Enlace-li{
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Bangers', cursive;
+}
+.Frase-p{
+    color: #F7DAD9;
+    display: flex;
+    justify-content: end;
+    align-items: center ;  
+    margin-right: 1rem;
+    font-size: 24px;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px 2px slateblue;
+
+}
+.Desc-section{
+    margin: 2rem;
+}  
+h1{
+    color: #F1ECC3;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    font-style: oblique;
+    text-decoration: underline; 
+}
+h1:hover{
+    text-shadow: 2px 2px 2px grey;
+}
+.Sub-h2{
+    margin: 0.5rem;
+    color: #C9D8B6;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.Sub-h2:hover{
+    text-shadow: black 2px 2px 15px;
+}
+.Desc-p{
+    margin-left: 1rem;
+    margin-top: 0px;
+    color: #57837B;
+    font-size: 20px;
+    font-family: 'STIX Two Text', serif;
+    text-shadow: black 2px 2px 2px ;
+}
+.Desc-p:hover{
+    text-shadow: 2px 2px 2px brown;
+}
+.Gustos-ul{
+    margin-top: 3rem    ;
+    list-style: none ;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 15px;
+}
+.Div-li1{
+    display: flex; justify-content: space-around;
+    margin-top: 3rem;
+    align-items: center ;
+}
+.Gusto-li1{
+    color: #A7C4BC;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1rem;
+    font-size: 35px;
+    
+}
+.Div-li2{
+    display: flex; justify-content: space-around;
+    margin-top: 3rem;
+    align-items: center ;
+}
+.Gusto-li2{
+    color: #A7C4BC;
+    font-family: halloween semi black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Div-li3{
+        display: flex; justify-content: space-around;
+        margin-top: 3rem;
+        align-items: center ;
+}
+.Gusto-li3{
+    color: #A7C4BC;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.Gusto-li1:hover{
+    text-shadow: 3px 3px 3px green;
+}
+.Gusto-li3{
+    color: #A7C4BC;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.Gusto-li3:hover{
+    text-shadow: 3px 3px 3px green;
+}
+.Anime{
+    width: 35%;
+    margin-left: 2rem;
+}
+.Anime:hover{
+    filter:invert(150%) drop-shadow(10px 10px 10px skyblue) ;
+}
+.Musica{
+    height: 20em;
+    margin-right: 1rem;
+    border-radius: 55%;
+}
+.Musica:hover{
+    filter: blur(3px);
+}
+.Manga{
+    width: 45%;
+    margin-left: 1rem;
+}
+.Manga:hover{
+    box-shadow: 2px 2px 2px greenyellow;
+}

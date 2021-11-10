@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Qahiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=STIX+Two+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+body{
+    background-image:linear-gradient(#402218 ,#C68B59);
+    background-repeat: no-repeat;
+    margin: 0px; padding: 0px;
+    height: 100%;
+}
+nav{
+    background-color: black;
+    display: flex; justify-content: space-between; padding-left: 2em; padding-right: 2em;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.Menu{
+    display: flex;
+    justify-content: space-between;
+}
+.Titu{
+    color: #D6D2C4 ;
+}
+.Nombre{
+    margin-left: 1em;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.Nombre:hover{
+    text-shadow: 5px 5px 10px #F38BA0;
+}
+.Logo{
+    height: 5rem;
+    border: double white 5px;
+}
+.Logo:hover{
+    filter: drop-shadow(5px 5px 10px grey);
+}
+ul{
+    list-style: none ;
+    margin-left: 1em;
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
+}
+ul:hover{
+    text-shadow: 2px 2px 15px #EDF6E5;
+}
+li{
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Bangers', cursive;
+}
+.Frase{
+    color: #F7DAD9;
+    display: flex;
+    justify-content: end;
+    align-items: center ;  
+    margin-right: 1rem;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px 2px slateblue; 
+}
+body{
+    height: 100%;
+    width: 100%;
+    padding: 0px ;
+    overflow-x: hidden;
+}
+.Bio-sect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Sub-h2{
+    margin: 0.5rem;
+    color: #C9D8B6;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    text-align: center;
+}
+.Sub-h2:hover{
+    text-shadow: black 2px 2px 15px;
+}
+.Trabajo-img{
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Info-div{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.Autor-img{
+    width: 17rem;
+    margin-bottom: 1rem;
+}
+.Autor-img:hover{
+    box-shadow: 5px 5px 25px red;
+    margin-bottom: 1rem;
+}
+.Desc-p{
+    margin-left: 1rem;
+    margin-top: 0px;
+    color: #57837B;
+    font-size: 20px;
+    font-family: Traveling _Typewriter;
+    text-shadow: black 2px 2px 2px ;
+    padding-left: 7rem;
+    padding-right: 10rem;
+    width: 40rem;
+    text-align: center;
+}
+.Desc-p:hover{
+    text-shadow: 2px 2px 2px brown;
+}
